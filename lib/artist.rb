@@ -5,7 +5,9 @@ class Artist
   @@song_count = 0
 
   def songs
-    @songs
+    songs.collect do |song|
+      song.artist
+      @songs
   end
 
   def initialize(name)
