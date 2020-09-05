@@ -5,7 +5,8 @@ class Artist
   @@song_count = 0
 
   def songs
-    @songs
+    self.songs.collect do |song|
+      song.genre
 end
 
   def initialize(name)
