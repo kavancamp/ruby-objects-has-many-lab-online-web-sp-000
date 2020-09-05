@@ -7,13 +7,13 @@ class Artist
   def songs
     songs.collect do |song|
       song.artist
-      @songs
   end
+      @songs
+end
 
   def initialize(name)
     @name = name
     @songs = []
-
   end
 
   def add_song(song)
