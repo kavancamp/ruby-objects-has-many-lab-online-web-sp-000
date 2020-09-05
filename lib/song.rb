@@ -10,4 +10,4 @@ class Song
     self.artist ? self.artist.name : nil
     end
 
-end 
+end
