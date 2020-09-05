@@ -27,6 +27,8 @@ end
   end
 
   def self.song_count
+    songs.collect do |song|
+      song.artist
     @@song_count += 1
   end
 
