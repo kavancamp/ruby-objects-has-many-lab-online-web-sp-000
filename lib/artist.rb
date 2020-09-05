@@ -7,6 +7,7 @@ class Artist
   def songs
     self.songs.collect do |song|
       song.genre
+  end
 end
 
   def initialize(name)
