@@ -10,7 +10,7 @@ class Song
     self.artist ? self.artist.name : nil
     end
 
-    def song.all
+    def self.all
     @@all
     end
 end
